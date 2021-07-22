@@ -1,0 +1,123 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.hero
+{
+    text-align: center;
+}
+.hero h2
+{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.hero h2::after
+{
+    content:'';
+    background: #007bff;
+    display:block;
+    height:3px;
+    width:170px;
+    margin:20px auto 5px;
+}
+    /*------nav-bar---------*/
+
+#nav-bar
+{
+   
+position:absolute;    
+    top:0;
+    z-index:10;
+   
+}
+
+.navbar-nav li
+{
+    padding:0 100px;
+ 
+    
+}
+.navbar-nav li a
+{
+    float:right;
+    text-align:center;
+}
+#nav-bar ul li a:hover
+{
+    color:#007bff!important;
+}
+.navbar
+{
+    background:#fff;
+}
+.navbar-toggler
+{
+    border:none!important;
+}
+.nav-link
+{
+    color:#555!important;
+    font-weight:600;
+    font-size:16px;
+   
+}
+/*-----nav-bar2----*/
+#nav-bar2
+{
+    padding: 0 100px;
+    margin-top:195px;
+   
+}
+#nav-bar2 ul li a:hover
+{
+    color:#007bff!important;
+    border:1px solid black;
+
+}
+/*-----get in touch-----*/
+#sign-up
+{
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+   
+}
+p
+{
+    text-align: center;
+}
+.contact-form
+{
+    padding: 15px;
+}
+.form-control
+{
+    border-radius: 0!important;
+    border:1px;
+    
+}
+::placeholder
+{
+   color:#999!important; 
+}
+.form-group
+{
+    display:inline-block;
+    width: 450px;
+    text-align: right;
+    padding: 0 100px;
+    
+}
+  /*--footer-----*/
+  #foot{
+    background: #fff;
+    color: #000;
+   }
+.last{
+  text-align: center;
+ margin-bottom: 1px;
+}

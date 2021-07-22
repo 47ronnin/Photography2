@@ -1,0 +1,186 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.hero
+{
+    text-align: center;
+}
+.hero h2
+{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.hero h2::after
+{
+    content:'';
+    background: #007bff;
+    display:block;
+    height:3px;
+    width:170px;
+    margin:20px auto 5px;
+}
+    /*------nav-bar---------*/
+
+#nav-bar
+{
+   
+position:absolute;    
+    top:0;
+    z-index:10;
+   
+}
+
+.navbar-nav li
+{
+    padding:0 100px;
+ 
+    
+}
+.navbar-nav li a
+{
+    float:right;
+    text-align:center;
+}
+#nav-bar ul li a:hover
+{
+    color:#007bff!important;
+}
+.navbar
+{
+    background:#fff;
+}
+.navbar-toggler
+{
+    border:none!important;
+}
+.nav-link
+{
+    color:#555!important;
+    font-weight:600;
+    font-size:16px;
+   
+}
+.active
+{
+    color:#007bff!important;
+    font-weight:600;
+    font-size:16px;
+}
+/*------image-----*/
+#table
+{
+    background: url(img/g10.jpg);
+    padding-top: 80px;
+    padding-bottom: 0px;
+}
+.image
+{
+    padding-top: 190px;
+    
+}
+  /*--footer-----*/
+  #foot{
+    background: #fff;
+    color: #000;
+   }
+.last{
+  text-align: center;
+ margin-bottom: 1px;
+}
+/*------get in touch----*/
+#contact
+{
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:#777;
+}
+.contact-form
+{
+    padding: 15px;
+}
+.form-control
+{
+    border-radius: 0!important;
+    border:none!important;
+}
+::placeholder
+{
+   color:#999!important; 
+}
+.follow
+{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+.contact-info .fa
+{
+    margin:10px;
+    color:#007bff;
+    font-weight:bold;
+}
+h1
+{
+    text-align: center;
+}
+h1::after
+{
+    content:'';
+    background: #007bff;
+    display: block;
+    height:3px;
+    width:170px;
+    margin:20px auto 5px;
+}
+/*-----sign up-----*/
+#sign-up
+{
+    background: #efefef;
+    padding-top: 0px;
+    padding-bottom: 40px;
+ 
+}
+p
+{
+    text-align: center;
+}
+.contact-form
+{
+    padding: 15px;
+}
+.form-control
+{
+    border-radius: 0!important;
+    border:1px;
+    
+}
+::placeholder
+{
+   color:#999!important; 
+}
+.form-group
+{
+    display:inline-block;
+    width: 450px;
+    text-align: right;
+    padding: 0 100px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
